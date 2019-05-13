@@ -11,6 +11,9 @@ Project is all done in KiCad 5.1.2
 # Bill of Materials
 
 4 x X7R 0.1uF MLCC SMD Capacitors (1206 (imperial))
+
 4 x AS4C256K16E0-45TC 3.3v 256x16 EDO DRAM (TSOP-II 40/44)
+
 1 x LM1117-3.3 Linear Voltage Regulator (SOT-223)
+
 16 x 10-pin SIL Headers (Harwin M20-9771042)
