@@ -2,6 +2,8 @@
 
 Replace the old 44256 DRAM chips on your A500 with newer EDO memory! No more hunting around trying to find stocks of old 44256 DRAM chips on eBay from dubious sellers with no idea if they work or not - i designed this board to fit 4 x 512KB (4MBit) EDO RAM chips so that in an A500, you can address 1MB, and an A500+ will address 2MB. 
 
+I used AS4C256K16E0-45TC chips as they're cheap, abundant and they have exactly 9 address lines (A0 to A8) so no need for a CPLD to generate the A9 signal that's required for newer chips, although you can happily take this schematic and do that if you want to use more modern ISSI TSOP/SOJ DRAM designs using just two 16Mbit IC's.
+
 It's a pretty simple design, just a decoupling cap for each DRAM IC, a voltage regulator and the correct pin layout for it to plug into the A500 board. 
 
 Ignore the image of the sockets, it's what KiCad generates as the 3D model. 
