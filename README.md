@@ -1,22 +1,20 @@
 # A500-DRAM-Board
-![A500 DRAM Replacement Board](DRAM%20Board%20Rev0%20Orthog3.png?raw=true "A500 DRAM Replacement Board")
+![A500 DRAM Replacement Board](DRAM%20Board&20v2%20Top0.png?raw=true "A500 DRAM Replacement Board")
 
-Replace the old 44256 DRAM chips on your A500 with newer EDO memory! No more hunting around trying to find stocks of old 44256 DRAM chips on eBay from dubious sellers with no idea if they work or not - i designed this board to fit 4 x 512KB (4MBit) EDO RAM chips so that in an A500, you can address 1MB, and an A500+ will address 2MB. 
+Replace the old 44256 DRAM chips on your A500+ with newer EDO memory! No more hunting around trying to find stocks of old 44256 DRAM chips on eBay from dubious sellers with no idea if they work or not - i designed this board to fit 2 x 512KB (4MBit) EDO RAM chips so that you can address 1MB of RAM.
 
-I used AS4C256K16E0-45TC chips as they're cheap, abundant and they have exactly 9 address lines (A0 to A8) so no need for a CPLD to generate the A9 signal that's required for newer chips, although you can happily take this schematic and do that if you want to use more modern ISSI TSOP/SOJ DRAM designs using just two 16Mbit IC's.
+I used IS41C16257-35 chips (256k x 16) as they're cheap, abundant and they have exactly 9 address lines (A0 to A8) so no need for a CPLD to generate the A9 signal that's required for newer chips.
 
-It's a pretty simple design, just a decoupling cap for each DRAM IC, a voltage regulator and the correct pin layout for it to plug into the A500 board. 
+It's a pretty simple design, just three decoupling caps for each DRAM IC, a voltage regulator and the correct pin layout for it to plug into the A500 board. 
 
-Ignore the image of the sockets, it's what KiCad generates as the 3D model. 
+This Rev2 design reduces the component count, the board size and improves the layout and routing considerably.
 
 Project is all done in KiCad 5.1.2
 
 # Bill of Materials
 
-4 x X7R 0.1uF MLCC SMD Capacitors (1206 (imperial))
+6 x X7R 0.1uF MLCC SMD Capacitors (1206 (imperial))
 
-4 x AS4C256K16E0-45TC 3.3v 256x16 EDO DRAM (TSOP-II 40/44)
-
-1 x LM1117-3.3 Linear Voltage Regulator (SOT-223)
+2 x IS41C16257-35 5v 256x16 EDO DRAM (SOJ-40)
 
 16 x 10-pin SIL Headers (Harwin M20-9771042)
