@@ -1,5 +1,5 @@
 # A500-DRAM-Board
-![A500 DRAM Replacement Board](DRAM%20Board&20v2%20Top0.png?raw=true "A500 DRAM Replacement Board")
+![A500 DRAM Replacement Board](DRAM Board v2 Top0.png?raw=true "A500 DRAM Replacement Board")
 
 Replace the old 44256 DRAM chips on your A500+ with newer EDO memory! No more hunting around trying to find stocks of old 44256 DRAM chips on eBay from dubious sellers with no idea if they work or not - i designed this board to fit 2 x 512KB (4MBit) EDO RAM chips so that you can address 1MB of RAM.
 
