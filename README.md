@@ -5,7 +5,7 @@ Replace the old 44256 DRAM chips on your A500+ with newer EDO memory! No more hu
 
 I used IS41C16257-35 chips (256k x 16) as they're cheap, abundant and they have exactly 9 address lines (A0 to A8) so no need for a CPLD to generate the A9 signal that's required for newer chips.
 
-It's a pretty simple design, just three decoupling caps for each DRAM IC, a voltage regulator and the correct pin layout for it to plug into the A500 board. 
+It's a pretty simple design, just three decoupling caps for each DRAM IC and the correct pin layout for it to plug into the A500 board. 
 
 This Rev2 design reduces the component count, the board size and improves the layout and routing considerably.
 
