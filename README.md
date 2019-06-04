@@ -17,4 +17,4 @@ Project is all done in KiCad 5.1.2
 
 2 x IS41C16257-35 5v 256x16 EDO DRAM (SOJ-40)
 
-16 x 10-pin SIL Headers (Harwin M20-9771042)
+4 x 10-pin SIL Headers (Harwin M20-9771042)
